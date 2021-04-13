@@ -12,6 +12,13 @@ contains all required libraries and dependencies on a specific version to run th
 On this case we'll keep using Nginx to serve a basic site and we'll mount a volume with the site content. As this files
 are originally on our disk we can edit them and the container can seamlessly see this changes.
 
+It's important to understand that not all volumes are bind-mounted. With docker, we can define volumes that does not map
+any file from the local filesystem but that can be mounted on one or more containers at the same time. That way 
+containers can share folders. This can be useful for example when you have a PHP app that generate files on a public
+folder but this folder needs to be accessed by the web server (e.g. Nginx) that is on another container. Sharing this
+public folder between both containers make this possible. This will be showcased on
+[exercise 4.3](../exercise4_3/exercise4_3.md).
+
 ## 👩🏻‍💻 Exercise
 
 On this exercise you should:

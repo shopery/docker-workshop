@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+
+    site:
+        build: # Use a source to build an image
+            context: TO_BE_FILLED # Use current folder as build context
+            dockerfile: TO_BE_FILLED # Use current folder Dockerfile to build this container
+        container_name: exercise4_1
+        ports:
+            - TO_BE_FILLED # Expose internal port 5000 to external port 80

@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+
+    site:
+        build:
+            context: . # Use current folder as build context
+            dockerfile: Dockerfile # Use current folder Dockerfile to build this container
+        container_name: exercise4_1
+        ports:
+            - 80:5000 # Expose internal port 5000 to external port 80
