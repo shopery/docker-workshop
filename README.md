@@ -18,8 +18,8 @@
 ### Section 3 - Volumes
 
 * [Exercise 3.1 - Run a container with a volume 💾](exercise3_1/exercise3_1.md)
-* 🚧 [Exercise 3.2 - Overriding container files with a volume ✍️](exercise3_2/exercise3_2.md)
-* 🚧 [Exercise 3.3 - Containers with private shared volumes ️](exercise3_3/exercise3_3.md)
+* [Exercise 3.2 - Overriding container files with a volume ✍️](exercise3_2/exercise3_2.md)
+* 🚧 [Exercise 3.3 - Containers with private shared volumes 🔒](exercise3_3/exercise3_3.md)
 * 🚧 [Exercise 3.4 - Updating container files with a volume in Real Time ⏱](exercise3_4/exercise3_4.md)
 
 ### Section 4 - Docker compose

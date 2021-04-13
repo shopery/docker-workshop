@@ -31,7 +31,7 @@ These links can provide the information needed to solve the exercise
 * [Docker build reference](https://docs.docker.com/engine/reference/commandline/build/)
     * You can use [TLDR](https://tldr.sh/) for help: `tldr docker build`
 * [Docker run reference](https://docs.docker.com/engine/reference/run/)
-    * You can use [TLDR](https://tldr.sh/) for help: `tldr docker run
+    * You can use [TLDR](https://tldr.sh/) for help: `tldr docker run`
 * [Get started with Bind mounts on Docker](https://docs.docker.com/get-started/06_bind_mounts/)
 * [Bind mounts on Docker](https://docs.docker.com/storage/bind-mounts/)
 
