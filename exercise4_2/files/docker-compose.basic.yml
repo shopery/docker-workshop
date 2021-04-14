@@ -1,0 +1,16 @@
+version: "3.4"
+
+services:
+
+    nginx: # Nginx container definition
+        image: TO_BE_FILLED # Use latest nginx image
+        ports: # Expose port 80
+            - TO_BE_FILLED
+        volumes: # Mount files on the clean Nginx image
+            - TO_BE_FILLED  # Mount site folder on path /site for the container
+            - TO_BE_FILLED # Add Nginx config on /etc/nginx/conf.d/default.conf
+
+    php: # PHP container definition
+        image: TO_BE_FILLED # Use php fpm version 8.0 as image
+        volumes: # Mount files on the clean PHP image
+            - TO_BE_FILLED # Mount site folder on path /site for the container
