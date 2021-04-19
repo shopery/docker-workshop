@@ -33,7 +33,12 @@ On this exercise you should:
 
 These links can provide the information needed to solve the exercise
 
-* [XXXXX](https://shopery.com)
+* [Docker compose file v3 reference](https://docs.docker.com/compose/compose-file/compose-file-v3/)
+  * Have a look at the [environment](https://docs.docker.com/compose/compose-file/compose-file-v3/#environment) section
+* [Overview of docker-compose CLI](https://docs.docker.com/compose/reference/overview/)
+  * You can use [TLDR](https://tldr.sh/) for help: `tldr docker-compose`
+* [Dockerhub MySQL image documentation](https://hub.docker.com/_/mysql)
+  * Have a loot at the `Environment Variables` section
 
 ## 🧩 Solution
 

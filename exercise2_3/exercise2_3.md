@@ -39,7 +39,7 @@ On this exercise you should:
 - [ ] Run a container from image `exercise2_3-app2:latest` exposing `port:80` from the container into public `port:82`
 - [ ] Visit [http://localhost:81](http://localhost:81) to see Site 1
 - [ ] Visit [http://localhost:82](http://localhost:82) to see Site 2
-- [ ] Stop all sites
+- [ ] Stop all sites (Containers)
 - [ ] Remove the shared `exercise2_3-nginx:latest` image and run any of the sites again. Does it work? Why?
 - [ ] Remove the Site 1 image `exercise2_3-app1:latest` and rebuild it again. Does it work? Why?
 

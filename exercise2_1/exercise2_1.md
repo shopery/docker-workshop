@@ -26,7 +26,7 @@ On this exercise you should:
 - [ ] Confirm changes are not shown at [http://localhost](http://localhost)
 - [ ] Rebuild the `exercise2_1:latest` image
 - [ ] Stop the current container and run the image again exposing `port:80`
-- [ ] Confirm that the changes are not showed at [http://localhost](http://localhost)
+- [ ] Confirm that the changes are now shown at [http://localhost](http://localhost)
 
 ## 🤔 Documentation and help
 
@@ -35,6 +35,7 @@ These links can provide the information needed to solve the exercise
 * [Nginx on Docker hub](https://hub.docker.com/_/nginx)
 * [Nginx 1.19 tag on Docker hub](https://hub.docker.com/_/nginx?tab=tags&page=1&ordering=last_updated&ame=1.19)
 * [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+  * You should use `FROM` & `COPY` commands
 * [Docker build reference](https://docs.docker.com/engine/reference/commandline/build/)
     * You can use [TLDR](https://tldr.sh/) for help: `tldr docker build`
 * [Docker run reference](https://docs.docker.com/engine/reference/run/)

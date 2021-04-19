@@ -46,10 +46,10 @@ After this point you can access the app at [http://localhost](http://localhost)
 
 ### 5️⃣ Rebuild the `exercise2_1:latest` image
 
-Just run the same command, the image will be overwritten
+Just run the same build command, the image will be overwritten
 
 ```shell
-docker run -d -p 80:80 exercise2_1:latest
+docker build -f files/Dockerfile ./files -t exercise2_1:latest
 ```
 
 ### 6️⃣ Stop the current container and run the image again exposing `port:80`

@@ -16,4 +16,8 @@ services:
             - TO_BE_FILLED # Mount site folder on path /site for the container
 
     mysql: # MySQL container definition
-        TO_BE_FILLED
+        # Structure not defined on this section
+        TO_BE_FILLED # Use latest mysql image
+        TO_BE_FILLED # Expose port 3306 to access mysql from outside the containers
+        TO_BE_FILLED # Set root password to root
+        TO_BE_FILLED # Create test-db database by default

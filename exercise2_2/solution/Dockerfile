@@ -19,11 +19,11 @@ RUN npm install
 # Build project (Build is generated on a build folder)
 RUN npm run build
 
-# First step - Create app from build
+# Second step - Create app from build
 # From node 15.14 image as app
 FROM node:15.14-alpine as app
 
-# Install serve as global dependency (Used to serve site)
+# Install serve as global dependency (Used to serve site) using npm
 RUN npm install -g serve
 
 # Create a /app folder to work in

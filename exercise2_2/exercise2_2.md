@@ -9,13 +9,13 @@ understand is multi-step image generation.
 This means that on a single file we generate a first image and after that we generate a second image using part of the
 content build on the first one.
 
-This can be really useful because most of the times the dependencies needed to build the app and run it are totally
+This can be really useful because most of the time the dependencies needed to build the app and run it are totally
 different. For example for a JS app you need all the dependencies, source files, etc. But once it is built and the
 static files are generated you no longer need any of them so why would you like to deploy it to your productions
 servers?
 
 This also happens with PHP apps where you need for example Composer to install dependencies, this is not really a
-dependency to run the app so you don't really need it on your production container.
+dependency to run the app, so you don't really need it on your production container.
 
 For this exercise we'll use NodeJS, specifically a node "Hello world" example. On the first step we'll install the
 required dependencies to build the static site files.
@@ -31,6 +31,7 @@ debian package manager (apt-get) and uses a lighter package installer (apk).
 On this exercise you should:
 
 - [ ] Fill [Dockerfile](files/Dockerfile) (instructions on the file)
+    * The difficulty gap between the latest exercise is High, remember to read **Documentation and help** section
 - [ ] Build this image as `exercise2_2:latest`
 - [ ] Find your built image on your local images
   * Have a look to the image size, **more than 1Gb**!
@@ -45,14 +46,20 @@ On this exercise you should:
 These links can provide the information needed to solve the exercise
 
 * [Node on Docker hub](https://hub.docker.com/_/node)
-* [Nginx 15.14 tag on Docker hub](https://hub.docker.com/_/node?tab=tags&page=1&ordering=last_updated&name=15.14)
+* [Node 15.14 tag on Docker hub](https://hub.docker.com/_/node?tab=tags&page=1&ordering=last_updated&name=15.14)
 * [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+  * You should use `FROM`, `RUN`, `WORKDIR`, `COPY` & `CMD` commands
+* [Docker Multistage build Doc](https://docs.docker.com/develop/develop-images/multistage-build/)
+* [Node hello world README](files/hello-world/README.md)
+  * You can install dependencies running `npm install`
+  * You can build the project by executing `npm run build`, project will be built on `build` folder
+* [Install NPM package Globally](https://docs.npmjs.com/downloading-and-installing-packages-globally)
+* [Serve NPM server documentation](https://www.npmjs.com/package/serve)
+  * To start the server from a path just run `serve -s /path`
 * [Docker build reference](https://docs.docker.com/engine/reference/commandline/build/)
   * You can use [TLDR](https://tldr.sh/) for help: `tldr docker build`
-* [Node hello world README](files/hello-world/README.md)
 * [Docker run reference](https://docs.docker.com/engine/reference/run/)
   * You can use [TLDR](https://tldr.sh/) for help: `tldr docker run`
-* [Docker Multistage build Doc](https://docs.docker.com/develop/develop-images/multistage-build/)
 * [Alpine Linux on Wikipedia](https://en.wikipedia.org/wiki/Alpine_Linux)
 * [Hello world based on React Hello World](https://www.bogotobogo.com/DevOps/Docker/Docker-React-App.php)
 

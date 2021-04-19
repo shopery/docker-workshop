@@ -19,11 +19,11 @@ YOUR CODE HERE
 # Build project (Build is generated on a build folder)
 YOUR CODE HERE
 
-# First step - Create app from build
+# Second step - Create app from build
 # From node 15.14-alpine image as app
 YOUR CODE HERE
 
-# Install serve as global dependency (Used to serve site)
+# Install serve as global dependency (Used to serve site) using npm
 YOUR CODE HERE
 
 # Create a /app folder to work in
