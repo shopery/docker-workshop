@@ -1,5 +1,5 @@
 > [⬅️ Index](../README.md)
-# ▶️ Exercise 3.2 - Overriding container files with a volume ✍️
+# ▶️ Exercise 3.2 - Overriding container files with a bind mount ✍️
 
 ## ℹ️ Introduction
 
@@ -8,6 +8,10 @@ When we bind mount a folder into an image, we are overwriting everything that's 
 That's important to understand because it's something that we have to keep in mind specially on development. There's no
 sense on creating a complex build or download a bunch of dependencies on a folder if this folder is going to be
 overwritten by our local folder.
+
+On this exercise we'll run a basic site and after seeing it working we'll overwrite the site folder with a local folder
+that contains a second site. At this point the original site will be overwritten and we'll be able to change the new
+site files on real time.
 
 ## 👩🏻‍💻 Exercise
 

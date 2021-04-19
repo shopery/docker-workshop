@@ -1,23 +1,24 @@
 > [⬅️ Index](../README.md)
-# ▶️ Exercise 3.1 - Run a container with a volume 💾
+# ▶️ Exercise 3.1 - Run a container with a bind mount 💾
 
 ## ℹ️ Introduction
 
 On this exercise we'll learn to use volumes to share a folder from the host OS to a container. That way we can share
 our files and modify it in real time.
 
-This is something that we use on development. That way we can have our project files inside a container that already
-contains all required libraries and dependencies on a specific version to run the project.
+There are basically two types of mounts (Popularly known as volumes):
+* **Volumes:** Are stored on the host system on a folder managed by Docker (`/var/lib/docker/volumes/`). Non-Docker
+processes should not modify this part of the filesystem. Volumes are the best way to persist data in Docker.
+* **Bind mounts:** May be stored **anywhere** on the host system. They may even be important system files or 
+directories. Non-Docker processes on the Docker host or a Docker container can modify them at any time.
 
-On this case we'll keep using Nginx to serve a basic site and we'll mount a volume with the site content. As this files
-are originally on our disk we can edit them and the container can seamlessly see this changes.
+On development, we usually use Bind mount to share files with the container. That way we can run our project files
+inside a container that already has all required libraries and dependencies on a specific version to run the project.
 
-It's important to understand that not all volumes are bind-mounted. With docker, we can define volumes that does not map
-any file from the local filesystem but that can be mounted on one or more containers at the same time. That way 
-containers can share folders. This can be useful for example when you have a PHP app that generate files on a public
-folder but this folder needs to be accessed by the web server (e.g. Nginx) that is on another container. Sharing this
-public folder between both containers make this possible. This will be showcased on
-[exercise 4.3](../exercise4_3/exercise4_3.md).
+On this case we'll keep using Nginx to serve a basic site, and we'll add a bind mount with the site content. As these
+files are originally on our disk we can edit them and seamlessly see the changes on the container.
+
+We will see more about the second type of mount, volumes, on [exercise 4.3](../exercise4_3/exercise4_3.md).
 
 ## 👩🏻‍💻 Exercise
 

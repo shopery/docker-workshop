@@ -17,14 +17,14 @@
 
 ### Section 3 - Volumes
 
-* [Exercise 3.1 - Run a container with a volume 💾](exercise3_1/exercise3_1.md)
-* [Exercise 3.2 - Overriding container files with a volume ✍️](exercise3_2/exercise3_2.md)
+* [Exercise 3.1 - Run a container with a bind mount 💾](exercise3_1/exercise3_1.md)
+* [Exercise 3.2 - Overriding container files with a bind mount ✍️](exercise3_2/exercise3_2.md)
 
 ### Section 4 - Docker compose
 
 * [Exercise 4.1 - Docker compose with a single container 📦](exercise4_1/exercise4_1.md)
 * [Exercise 4.2 - Docker compose with a multiple connected containers 🔌](exercise4_2/exercise4_2.md)
-* 🚧 [Exercise 4.3 - Docker compose with a multiple containers sharing a private volume 🔌](exercise4_3/exercise4_3.md)
+* [Exercise 4.3 - Docker compose with a multiple containers sharing a volume 💾](exercise4_3/exercise4_3.md)
 * 🚧 [Exercise 4.4 - Docker compose with a multiple containers, volumes, networks 💽](exercise4_4/exercise4_4.md)
 
 ### Section 5 - Makefiles

@@ -1,0 +1,22 @@
+version: "3.4"
+
+services:
+
+    site1: # Site 1 container definition
+        image: TO_BE_FILLED # Use latest nginx image
+        ports: # Expose port 80 from the container to public port 81
+            - TO_BE_FILLED
+        volumes: # Mount files on the clean Nginx image
+            - TO_BE_FILLED  # Mount shared site folder on path /var/www for the container
+            - TO_BE_FILLED # Add Nginx config on /etc/nginx/nginx.conf
+
+    site2: # Site 2 container definition
+        image: TO_BE_FILLED # Use latest nginx image
+        ports: # Expose port 80 from the container to public port 82
+            - TO_BE_FILLED
+        volumes: # Mount files on the clean Nginx image
+            - TO_BE_FILLED  # Mount shared site folder on path /var/www for the container
+            - TO_BE_FILLED # Add Nginx config on /etc/nginx/nginx.conf
+
+volumes:  # Volumes definition
+    TO_BE_FILLED # Shared volume definition (With default properties)
