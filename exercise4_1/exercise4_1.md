@@ -44,4 +44,4 @@ You can find the solution [in here](solution4_1.md)
 
 * Basic `docker-compose.yml` file structure
 * Basic `docker-compose` run command
-* Basic understanding on docker <-> docker-compose interaction
+* Basic understanding on docker ↔ docker-compose interaction

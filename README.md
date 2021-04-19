@@ -23,7 +23,7 @@
 ### Section 4 - Docker compose
 
 * [Exercise 4.1 - Docker compose with a single container 📦](exercise4_1/exercise4_1.md)
-* 🚧 [Exercise 4.2 - Docker compose with a multiple connected containers 🔌](exercise4_2/exercise4_2.md)
+* [Exercise 4.2 - Docker compose with a multiple connected containers 🔌](exercise4_2/exercise4_2.md)
 * 🚧 [Exercise 4.3 - Docker compose with a multiple containers sharing a private volume 🔌](exercise4_3/exercise4_3.md)
 * 🚧 [Exercise 4.4 - Docker compose with a multiple containers, volumes, networks 💽](exercise4_4/exercise4_4.md)
 
