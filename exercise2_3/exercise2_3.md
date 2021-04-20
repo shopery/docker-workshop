@@ -31,10 +31,10 @@ In this specific exercise we'll build a base image that just installs and config
 On this exercise you should:
 
 - [ ] Have a look at [base.Dockerfile](files/base.Dockerfile), [app1.Dockerfile](files/app1.Dockerfile)
-  and [app1.Dockerfile](files/app1.Dockerfile) to ensure that you understand them and their interdependencies
+  and [app2.Dockerfile](files/app2.Dockerfile) to ensure that you understand them and their interdependencies
 - [ ] Build an image from [base.Dockerfile](files/base.Dockerfile) and store it as `exercise2_3-nginx:latest`
 - [ ] Build an image from [app1.Dockerfile](files/app1.Dockerfile) and store it as `exercise2_3-app1:latest`
-- [ ] Build an image from [app1.Dockerfile](files/app1.Dockerfile) and store it as `exercise2_3-app1:latest`
+- [ ] Build an image from [app2.Dockerfile](files/app2.Dockerfile) and store it as `exercise2_3-app2:latest`
 - [ ] Run a container from image `exercise2_3-app1:latest` exposing `port:80` from the container into public `port:81`
 - [ ] Run a container from image `exercise2_3-app2:latest` exposing `port:80` from the container into public `port:82`
 - [ ] Visit [http://localhost:81](http://localhost:81) to see Site 1
