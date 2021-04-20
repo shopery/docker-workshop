@@ -29,7 +29,7 @@ share the site folder.
 On this exercise you should:
 
 - [ ] Fill the [docker-compose.yml](files/docker-compose.yml) file to raise the app sites
-- [ ] Use the `docker-compose` binary to start the app on the `docker-compose.yml` file on detached mode
+- [ ] Use the `docker-compose` binary to start the app from the `docker-compose.yml` file on detached mode
 - [ ] Visit both sites, there's no content on both site so both sites should return a 403 error
   * Site 1 url: [http://localhost:81](http://localhost:81)
   * Site 2 url: [http://localhost:82](http://localhost:82)

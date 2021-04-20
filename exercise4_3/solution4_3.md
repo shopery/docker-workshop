@@ -7,7 +7,7 @@
 
 You can find the solution at [solution/docker-compose.yml](solution/docker-compose.yml)
 
-### 2️⃣ Use the `docker-compose` binary to start the app on the `docker-compose.yml` file on detached mode
+### 2️⃣ Use the `docker-compose` binary to start the app from the `docker-compose.yml` file on detached mode
 
 ```shell
 docker-compose up -d

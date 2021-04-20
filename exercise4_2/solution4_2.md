@@ -3,7 +3,7 @@
 
 ## ℹ️ Solution
 
-### 1️⃣ Use the `docker-compose` binary to start the app on the `docker-compose.basic.yml` file on detached mode
+### 1️⃣ Use the `docker-compose` binary to start the app from the `docker-compose.basic.yml` file on detached mode
 
 ```shell
 docker-compose -f docker-compose.basic.yml up -d
@@ -18,7 +18,7 @@ running.
 docker-compose -f docker-compose.basic.yml stop
 ```
 
-### 3️⃣ Use the `docker-compose` binary to start the app on the `docker-compose.mysql.yml` file on detached mode
+### 3️⃣ Use the `docker-compose` binary to start the app from the `docker-compose.mysql.yml` file on detached mode
 
 ```shell
 docker build -f Dockerfile ./ -t exercise4_2-php:latest

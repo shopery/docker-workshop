@@ -5,7 +5,7 @@
 
 ### 1️⃣ Fill the [docker-compose.yml](files/docker-compose.yml) file
 
-Have a look to [solution/docker-compose.yml](solution/docker-compose.yml)
+Have a look at [solution/docker-compose.yml](solution/docker-compose.yml)
 
 ### 2️⃣ Use the `docker-compose` binary to start the container
 

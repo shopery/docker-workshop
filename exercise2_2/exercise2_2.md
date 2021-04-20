@@ -34,10 +34,10 @@ On this exercise you should:
     * The difficulty gap between the latest exercise is High, remember to read **Documentation and help** section
 - [ ] Build this image as `exercise2_2:latest`
 - [ ] Find your built image on your local images
-  * Have a look to the image size, **more than 1Gb**!
+  * Have a look at the image size, **more than 1Gb**!
 - [ ] Change app image from Node 15.14 to Node 15.14-alpine (Lighter image) and rebuild the image
 - [ ] Find your built image on your local images
-    * Have a look to the new image size, **120MB with the same app**!
+    * Have a look at the new image size, **120MB with the same app**!
 - [ ] Run this image exposing internal `port:5000` (Default for the App) to `port:80` (Default for HTTP)
 - [ ] Visit [http://localhost](http://localhost) to see your site
 

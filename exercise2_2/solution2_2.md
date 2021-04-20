@@ -5,7 +5,7 @@
 
 ### 1️⃣ Dockerfile
 
-Have a look to the Dockerfile solution at [📄 Dockerfile](solution/Dockerfile)
+Have a look at the Dockerfile solution at [📄 Dockerfile](solution/Dockerfile)
 
 ### 2️⃣ Build this image as `exercise2_2:latest`
 
@@ -36,7 +36,7 @@ REPOSITORY    TAG      IMAGE ID       CREATED         SIZE
 exercise2_2   latest   5cf351c02fe3   2 minutes ago   1.03GB
 ```
 
-Have a look to the image size, **more than 1Gb**!
+Have a look at the image size, **more than 1Gb**!
 
 ### 4️⃣ Change app image from Node 15.14 to Node 15.14-alpine (Lighter image)
 
@@ -48,7 +48,7 @@ After that, rebuild the image
 docker build -f files/Dockerfile ./files -t exercise2_2:latest
 ```
 
-Have a look to the new image size, **120MB with the app**!
+Have a look at the new image size, **120MB with the app**!
 
 ### 5️⃣ Find your built image on your local images
 
@@ -58,7 +58,7 @@ REPOSITORY    TAG      IMAGE ID       CREATED         SIZE
 exercise2_2   latest   5cf351c02fe3   3 minutes ago   120MB
 ```
 
-Have a look to the new image size, **120MB with the same app**!
+Have a look at the new image size, **120MB with the same app**!
 
 ### 6️⃣ Run this image exposing internal `port:5000` (Default for the App) to `port:80` (Default for HTTP)
 

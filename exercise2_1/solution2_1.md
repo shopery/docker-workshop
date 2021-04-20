@@ -5,7 +5,7 @@
 
 ### 1️⃣ Dockerfile
 
-Have a look to the Dockerfile solution at [📄 Dockerfile](solution/Dockerfile)
+Have a look at the Dockerfile solution at [📄 Dockerfile](solution/Dockerfile)
 
 ### 2️⃣ Build this image as `exercise2_1:latest`
 Access the files folder to run the build command

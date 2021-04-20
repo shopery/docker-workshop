@@ -18,7 +18,7 @@ On the second part we'll add MySQL to the stack to allow the site to connect to 
 On this exercise you should:
 
 - [ ] Fill the [docker-compose.basic.yml](files/docker-compose.basic.yml) file to raise a basic site (No MySQL yet)
-- [ ] Use the `docker-compose` binary to start the app on the `docker-compose.basic.yml` file on detached mode
+- [ ] Use the `docker-compose` binary to start the app from the `docker-compose.basic.yml` file on detached mode
   * Keep in mind that the docker compose file does not have the default name
 - [ ] Access [http://localhost](http://localhost) to see the site
   * Only the homepage will work, the other pages will fail as there's no MySQL database yet
@@ -26,7 +26,7 @@ On this exercise you should:
 - [ ] Fill the [docker-compose.mysql.yml](files/docker-compose.mysql.yml) file to raise a site with MySQL
 - [ ] Build an image from [Dockerfile](files/Dockerfile) and store it as `exercise4_2-php:latest`
   * This is required because we need to add an extra library to the PHP base image. Have a look at the Dockerfile
-- [ ] Use the `docker-compose` binary to start the app on the `docker-compose.mysql.yml` file on detached mode
+- [ ] Use the `docker-compose` binary to start the app from the `docker-compose.mysql.yml` file on detached mode
   * Keep in mind that the docker compose file does not have the default name
 - [ ] Access [http://localhost](http://localhost) to see the site
   * Now all pages should work taking advantage of the MySQL database
