@@ -10,6 +10,7 @@ RUN apt-get update \
 ;
 
 # Install PHP Extensions
+# More info: https://hub.docker.com/_/php (Section → How to install more PHP extensions)
 RUN docker-php-ext-install pdo_mysql \
 ;
 
