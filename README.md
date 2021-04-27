@@ -1,7 +1,5 @@
 # 🐋 Docker workshop
 
-> 🚧 Workshop still under construction. All the exercises with this icon in front are still WiP
-
 ## Exercises
 
 ### Section 1 - Running containers
@@ -29,5 +27,5 @@
 
 ### Section 5 - Makefiles
 
-* 🚧 [Exercise 5.1 - Basics of makefile 🎛](exercise5_1/exercise5_1.md)
-* 🚧 [Exercise 5.2 - Makefile to run docker projects 👟](exercise5_2/exercise5_2.md)
+* [Exercise 5.1 - Basics of makefile 🎛](exercise5_1/exercise5_1.md)
+* [Exercise 5.2 - Makefile to run docker projects 👟](exercise5_2/exercise5_2.md)
