@@ -12,7 +12,7 @@ start:
 	docker build -f Dockerfile -t exercise5_2-php:latest ./
 	$(COMPOSE) up -d
 	make reset-quotations
-	echo "Visit site on http://localhost"
+	echo "\n\nVisit site on http://localhost"
 
 # Stop command
 stop:
@@ -20,7 +20,7 @@ stop:
 
 # Reset quotations command
 reset-quotations:
-	$(COMPOSE) exec php mysql -h mysql -u root --password=root -e "truncate \`test-table\`" test-db
+	$(COMPOSE) exec php mysql -h mysql -u root --password=root -e "truncate \`test-table\`" test-db || true
 
 # Bash on PHP container command
 php-bash:
